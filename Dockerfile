@@ -15,5 +15,6 @@ RUN npm install
 # Bundle app source
 COPY . .
 
+# Expose the ports
 EXPOSE 8080
 CMD [ "npm", "start" ]
